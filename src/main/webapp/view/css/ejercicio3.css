@@ -1,0 +1,274 @@
+
+.botones a {
+    font-size: .7rem;
+}
+
+.bgGrisOscuro {
+    background-color: rgb(45, 45, 45);
+}
+
+.imgDark {
+    filter: brightness(50%);
+}
+
+.datos{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: smaller;
+    border-radius: 0.5rem;
+}
+
+.dato{
+    margin-top: 0.5;
+}
+
+.datos2{
+ 
+    text-align: center;
+    margin-top: 0.5;
+ }
+
+.datos3{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    font-size: smaller;
+    color: gray;
+    text-align: center;  
+}
+
+.datos4{
+    color: white;
+    display: inline-block;
+    background-color: green;
+    text-align: center;
+    font-size: medium;
+    padding: 0.5rem 20rem 0.5rem 20rem;
+    border-radius: 0.5rem;
+}
+
+dato1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dato2{
+    background-color: rgb(1, 32, 23);
+    margin-top: 1rem;
+}
+
+.dato3{
+    text-align: center;
+    background-color: rgb(1, 32, 23);
+    color: white;
+    padding: 2rem 1rem 2rem 1rem;
+    /*background-color: rgb(3, 19, 27);*/
+    width: 100%; 
+}
+
+.dato4{
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: rgb(1, 32, 23);
+    font-size: smaller;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.dato6{
+    border: 0.5 gray solid;
+    color: gray;
+    border-radius: 0.5;
+}
+
+
+
+.nuevo{font-weight: bold;}
+
+}
+
+
+
+
+/* Página Tickets */
+
+.link-verde-ticket{
+    color: #9de853 !important; 
+}
+
+.row-group{
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between !important;
+}
+
+.grupo-tickets{
+    margin-top: 8rem;
+
+}
+
+.card-tickets {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-tickets-estudiante{
+    border: solid 1px rgb(41, 128, 234);
+}
+
+.card-tickets-trainee{
+    border: solid 1px rgb(17, 150, 216) !important;
+}
+
+.card-tickets-junior{
+    border: solid 1px rgb(225, 192, 28) !important;
+}
+
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.total-pagar{
+    background-color: #cee4ee !important;
+}
+
+.container-btn-tickets{
+    align-items: center !important;
+
+
+
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .container-oradores {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+
+
+}
+
+.btn-ticket{
+    width: 48.3%;
+    border: none !important;
+    background-color: #7fc33b !important;
+}
+
+.footer-ticket{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-ticket .footer-link{
+    font-size: 15px !important;
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 910px) {
+
+    .navbar{
+        position: static !important;
+    }
+
+    .card-superpuesta img{
+        filter: brightness(100%);
+    }
+
+    .tarjeta {
+        padding-right: 8.5rem !important;
+        max-height: 50vh;
+        padding-left: 40vw !important;
+        font-size: 0.5rem;
+    }
+
+    .card-img-overlay {
+        padding: 2rem !important;
+        position: static !important;
+        background-color: black;
+    }
+
+    .card-text1 {
+        font-size: 1rem;
+        padding-top: 0.7rem;
+    }
+    
+    .card-title1 {
+        font-size: 1.5rem;
+    }
+
+    .formulario{
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .footer-lista{
+        padding: 0 2rem;
+    }
+
+    .footer-link{
+        padding: 1.5rem 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .grupo-tickets{
+        margin-top: 2rem;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .honolulu-text{
+        text-align: center;
+    }
+    
+    .honolulu-text .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    } 
+
+    .formulario-tickets{
+        width: 90%;
+    }
+
+    .footer-ticket{
+        position: static;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .container-oradores {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 848px) and (min-height: 850px){
+
+    .footer-ticket{
+        position: fixed;
+    }
+}
